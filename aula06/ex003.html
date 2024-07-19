@@ -21,7 +21,11 @@
     <script>
         var n1 = window.prompt('Digite um número')
         var n2 = window.prompt('Digite outro número')
-        window.alert(n1)
+        // converter para inteiro
+        var n1Int = Number.parseInt(n1)
+        var n2Int = Number.parseInt(n2)
+        var s = n1+n2
+        window.alert(s)
     </script>
 </body>
 </html>
