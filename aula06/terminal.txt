@@ -1,0 +1,19 @@
+Welcome to Node.js v20.11.1.
+Type ".help" for more information.
+> var s = 'javascript'
+undefined
+> s
+'javascript'
+> 'Eu estou estudando s'
+'Eu estou estudando s'
+> 'Eu estou estudando ' + s
+'Eu estou estudando javascript'
+> nome = 'Gustavo'
+'Gustavo'
+> idade = 41
+41
+> nota = 5.5
+5.5
+> `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+'O aluno Gustavo com 41 anos tirou a nota 5.5'
+>
