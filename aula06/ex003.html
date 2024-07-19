@@ -21,11 +21,23 @@
     <script>
         var n1 = window.prompt('Digite um número')
         var n2 = window.prompt('Digite outro número')
-        // converter para inteiro
-        var n1Int = Number.parseInt(n1)
-        var n2Int = Number.parseInt(n2)
-        var s = n1Int+n2Int
+        // Converte para qualquer tipo de número
+        var n1Numero = Number(n1)
+        var n2Numero = Number(n2)
+        
+        var s = n1Numero+n2Numero
         window.alert(s)
+
+
+        // converter para inteiro
+        // var n1Int = Number.parseInt(n1)
+        // var n2Int = Number.parseInt(n2)
+
+        // Converte para string
+        // var s = 3
+        // s.string()
+        // string(s)
+        
     </script>
 </body>
 </html>
